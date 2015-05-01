@@ -7,8 +7,8 @@ import org.junit.Test;
 public class FibonacciTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void getElementLoopTest()
+	{
+		assertEquals(50, FibonacciLauncher.getElemntLoop(6));
 	}
-
 }
