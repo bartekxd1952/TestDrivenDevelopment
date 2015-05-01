@@ -6,7 +6,19 @@ public class FibonacciLauncher
 {
 	public static void main(String[] args) 
 	{
-		//TODO not implementet yet
+		mainMethod();
+	}
+
+	private static void mainMethod()
+	{
+		for (int i = 1;; i++) 
+		{
+			if (checkFibonacciTerm(i)) 
+			{
+				printFoundedElement(i);
+				return;
+			}
+		}
 	}
 	
 	public static BigInteger getElemntLoop(int index)
