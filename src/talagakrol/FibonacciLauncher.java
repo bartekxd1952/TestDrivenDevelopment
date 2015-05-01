@@ -33,12 +33,12 @@ public class FibonacciLauncher
 	
 	private static void printFoundedElement(int i)
 	{
-		//TODO not implementet yet
+		System.out.println(i);
+		System.out.println(getElemntLoop(i));
 	}
 
 	private static boolean checkFibonacciTerm(int i)
 	{
-		
-		return true;
+		return getElemntLoop(i).toString().length() == 1000;
 	}
 }
