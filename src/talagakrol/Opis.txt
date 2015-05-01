@@ -1,0 +1,15 @@
+Do testów u¿y³em wbudowanej w œrodowisko Eclipse biblioteki JUnit.
+Jest to standardowa biblioteka do testów dla jêzyka Java. 
+
+JUnit charakteryzuje siê:
+- oddzielnoœæ testów od kodu,
+- raporty,
+- przypadki testowe,
+- integracja z ró¿nymi IDE (np. Eclipse, Netbeans, Intellij IDEA)
+
+Do testów u¿y³em JUnit w wersji 4 oraz Javy w wersji 1.8.
+
+Metodê opisa³em za pomoc¹ standardu JavaDoc.
+
+Kod kolegi podda³em refaktoryzacji, aby sta³ siê czytelniejszy i ³atwiejszy do analizowania rozbijaj¹c metode g³ówn¹ na 3 metody: mainMethod, printFoundedElement, checkFibonacciTerm.
+Zadba³em równie¿ o odpowiednie odstêpy, nazewnictwo metod oraz po³o¿enie klamer.
